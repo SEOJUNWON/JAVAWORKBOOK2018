@@ -11,11 +11,11 @@ public class WBManager {
 		if(step.equalsIgnoreCase("A")) 
 			new StepAManager();
 		if(step.equalsIgnoreCase("B")) 
-			new StepAManager();
+			new StepBManager();
 		if(step.equalsIgnoreCase("C")) 
-			new StepAManager();
+			new StepCManager();
 		if(step.equalsIgnoreCase("D")) 
-			new StepAManager();
+			new StepDManager();
 		
 		System.out.printf("종료되었습니다.\n");
 	}	
