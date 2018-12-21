@@ -1,4 +1,4 @@
-package workbook.stepC;
+package workbook.StepC;
 
 import java.util.Scanner;
 
