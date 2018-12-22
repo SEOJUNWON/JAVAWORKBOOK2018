@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 public class stepBManager {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public stepBManager() {
 		int menu;
 		Scanner s = new Scanner(System.in);
 		while(true) {
