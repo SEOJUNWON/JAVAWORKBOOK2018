@@ -17,7 +17,7 @@ public class PrintTri {
 	
 	void input() {
 		Scanner s=new Scanner(System.in);
-		System.out.print("직각삼각형의 높이와 왼쪽 여백의 크기를 입력하시오. ");
+		System.out.print("직각삼각형의 높이와 왼쪽 여백의 크기를 입력하시오.");
 		this.height=s.nextInt();
 		this.blank=s.nextInt();
 		
