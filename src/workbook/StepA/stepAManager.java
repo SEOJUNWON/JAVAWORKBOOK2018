@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class stepAManager {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public stepAManager() {
 			int menu;
 			Scanner s = new Scanner(System.in);
 			while(true) {
