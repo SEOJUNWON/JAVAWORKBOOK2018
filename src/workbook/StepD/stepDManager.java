@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 public class stepDManager {
-	public stpDManager() {
+	public stepDManager() {
 		int menu;
 		Scanner s = new Scanner(System.in);
 		while(true) {
