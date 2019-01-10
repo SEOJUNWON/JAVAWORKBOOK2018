@@ -8,10 +8,13 @@ public class stepKManager {
 		Scanner s = new Scanner(System.in);
 		while(true) {
 			System.out.printf("---------------------\n");
-			System.out.printf("1. 나이계산\n");
-			System.out.printf("2. 심사점수 계산\n");
-			System.out.printf("3. 물의온도구간 판정\n");
-			System.out.printf("4. 날짜간격세기\n");
+			System.out.printf("1. 메뉴판 저장\n");
+			System.out.printf("2. 메뉴판 여러개 저장\n");
+			System.out.printf("3. 좌표 저장\n");
+			System.out.printf("4. 좌표 여러개 저장\n");
+			System.out.printf("5. 사용자 목록 저장\n");
+			System.out.printf("6. 여러사용자 목록 저장\n");
+			System.out.printf("7. 학생 점수 저장\n");
 			System.out.printf("=>원하는 메뉴는?(0:exit) :");
 			menu = s.nextInt();
 			if(menu == 0) break;
